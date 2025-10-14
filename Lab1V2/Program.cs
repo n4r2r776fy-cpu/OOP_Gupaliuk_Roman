@@ -19,19 +19,19 @@ namespace lab1v2
             this.model = model;
             Year = year;
 
-            Console.WriteLine($"✅ Створено автомобіль: {brand} {model}, {year} року");
+            Console.WriteLine($" Створено автомобіль: {brand} {model}, {year} року");
         }
 
         //  Метод
         public void Drive()
         {
-            Console.WriteLine($"🚘 {brand} {model} ({Year}) вирушає в дорогу!");
+            Console.WriteLine($" {brand} {model} ({Year}) вирушає в дорогу!");
         }
 
         //  Деструктор
         ~Car()
         {
-            Console.WriteLine($"❌ Об’єкт {brand} {model} знищується...");
+            Console.WriteLine($" Об’єкт {brand} {model} знищується...");
         }
     }
 
